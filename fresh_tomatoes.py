@@ -21,7 +21,7 @@ main_page_head = '''
             padding-top: 80px;
             background-color:#191919;
         }
-        
+
         h3{
             font-family: Avant Garde, Avantgarde, Century Gothic, CenturyGothic, AppleGothic, sans-serif;
             font-size: 20px;
@@ -49,7 +49,7 @@ main_page_head = '''
         .movie-tile {
             height: 430px;
             margin-top: 10px;
-            padding: 15px; 
+            padding: 15px;
         }
 
         .posterart {
@@ -59,7 +59,7 @@ main_page_head = '''
             -webkit-transition: all 0.5s ease;
             -moz-transition: all 0.5s ease;
             -o-transition: all 0.5s ease;
-        }  
+        }
 
         .posterart:hover {
             opacity: 1;
@@ -70,7 +70,7 @@ main_page_head = '''
             /*Glow*/
             -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
             -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
-            box-shadow: 0px 0px 20px rgba(255,255,255,0.8);  
+            box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
         }
 
         .scale-media {
@@ -144,7 +144,7 @@ main_page_content = '''
         </div>
       </div>
     </div>
-    <div class="container clearfix">
+    <div class="container">
       {movie_tiles}
     </div>
   </body>
