@@ -37,9 +37,27 @@ zootopia = media.Movie(
                         "https://www.youtube.com/watch?v=g9lmhBYB11U"
                         )
 
+midnight_in_paris = media.Movie(
+                                "Midnight in Paris",
+                                "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM4NjY1MDQwMl5BMl5BanBnXkFtZTcwNTI3Njg3NA@@._V1_SY1000_CR0,0,677,1000_AL_.jpg",  # noqa
+                                "https://www.youtube.com/watch?v=dtiklALGz20"
+                                )
+
+avengers = media.Movie(
+                        "The Avengers",
+                        "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk2NTI1MTU4N15BMl5BanBnXkFtZTcwODg0OTY0Nw@@._V1_SY1000_CR0,0,675,1000_AL_.jpg",  # noqa
+                        "https://www.youtube.com/watch?v=eOrNdBpGMv8"
+                        )
+logan = media.Movie(
+                        "Logan",
+                        "https://images-na.ssl-images-amazon.com/images/M/MV5BMjQwODQwNTg4OV5BMl5BanBnXkFtZTgwMTk4MTAzMjI@._V1_.jpg",  # noqa
+                        "https://www.youtube.com/watch?v=Div0iP65aZo"
+                        )
+
 movies = [
           fantastic_beasts, wonder_woman, beauty_and_the_beast,
-          la_la_land, doctor_strange, zootopia
+          la_la_land, doctor_strange, zootopia, midnight_in_paris,
+          avengers, logan
          ]
 
 fresh_tomatoes.open_movies_page(movies)
